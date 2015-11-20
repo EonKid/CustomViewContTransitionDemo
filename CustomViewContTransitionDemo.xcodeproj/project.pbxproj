@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6D968ED1BFF1CE400110195 /* Interactor.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D968EC1BFF1CE400110195 /* Interactor.m */; };
 		A6E9C4A51BFF031F00A4C927 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E9C4A41BFF031F00A4C927 /* main.m */; };
 		A6E9C4A81BFF031F00A4C927 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E9C4A71BFF031F00A4C927 /* AppDelegate.m */; };
 		A6E9C4AB1BFF031F00A4C927 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E9C4AA1BFF031F00A4C927 /* ViewController.m */; };
@@ -14,6 +15,8 @@
 		A6E9C4B01BFF031F00A4C927 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6E9C4AF1BFF031F00A4C927 /* Images.xcassets */; };
 		A6E9C4B31BFF031F00A4C927 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6E9C4B11BFF031F00A4C927 /* LaunchScreen.xib */; };
 		A6E9C4BF1BFF031F00A4C927 /* CustomViewContTransitionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E9C4BE1BFF031F00A4C927 /* CustomViewContTransitionDemoTests.m */; };
+		A6E9C4C91BFF038100A4C927 /* mabelFlip.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6E9C4C81BFF038100A4C927 /* mabelFlip.jpg */; };
+		A6E9C4CC1BFF051E00A4C927 /* CustomModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E9C4CB1BFF051E00A4C927 /* CustomModalViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A6D968EB1BFF1CE400110195 /* Interactor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interactor.h; sourceTree = "<group>"; };
+		A6D968EC1BFF1CE400110195 /* Interactor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Interactor.m; sourceTree = "<group>"; };
 		A6E9C49F1BFF031F00A4C927 /* CustomViewContTransitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomViewContTransitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E9C4A31BFF031F00A4C927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6E9C4A41BFF031F00A4C927 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +45,9 @@
 		A6E9C4B81BFF031F00A4C927 /* CustomViewContTransitionDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomViewContTransitionDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E9C4BD1BFF031F00A4C927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6E9C4BE1BFF031F00A4C927 /* CustomViewContTransitionDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomViewContTransitionDemoTests.m; sourceTree = "<group>"; };
+		A6E9C4C81BFF038100A4C927 /* mabelFlip.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mabelFlip.jpg; sourceTree = "<group>"; };
+		A6E9C4CA1BFF051E00A4C927 /* CustomModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomModalViewController.h; sourceTree = "<group>"; };
+		A6E9C4CB1BFF051E00A4C927 /* CustomModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomModalViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,7 @@
 		A6E9C4A11BFF031F00A4C927 /* CustomViewContTransitionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A6E9C4C81BFF038100A4C927 /* mabelFlip.jpg */,
 				A6E9C4A61BFF031F00A4C927 /* AppDelegate.h */,
 				A6E9C4A71BFF031F00A4C927 /* AppDelegate.m */,
 				A6E9C4A91BFF031F00A4C927 /* ViewController.h */,
@@ -89,6 +98,10 @@
 				A6E9C4AF1BFF031F00A4C927 /* Images.xcassets */,
 				A6E9C4B11BFF031F00A4C927 /* LaunchScreen.xib */,
 				A6E9C4A21BFF031F00A4C927 /* Supporting Files */,
+				A6E9C4CA1BFF051E00A4C927 /* CustomModalViewController.h */,
+				A6E9C4CB1BFF051E00A4C927 /* CustomModalViewController.m */,
+				A6D968EB1BFF1CE400110195 /* Interactor.h */,
+				A6D968EC1BFF1CE400110195 /* Interactor.m */,
 			);
 			path = CustomViewContTransitionDemo;
 			sourceTree = "<group>";
@@ -199,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6E9C4C91BFF038100A4C927 /* mabelFlip.jpg in Resources */,
 				A6E9C4AE1BFF031F00A4C927 /* Main.storyboard in Resources */,
 				A6E9C4B31BFF031F00A4C927 /* LaunchScreen.xib in Resources */,
 				A6E9C4B01BFF031F00A4C927 /* Images.xcassets in Resources */,
@@ -220,6 +234,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6E9C4AB1BFF031F00A4C927 /* ViewController.m in Sources */,
+				A6D968ED1BFF1CE400110195 /* Interactor.m in Sources */,
+				A6E9C4CC1BFF051E00A4C927 /* CustomModalViewController.m in Sources */,
 				A6E9C4A81BFF031F00A4C927 /* AppDelegate.m in Sources */,
 				A6E9C4A51BFF031F00A4C927 /* main.m in Sources */,
 			);
@@ -416,6 +432,7 @@
 				A6E9C4C41BFF031F00A4C927 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6E9C4C51BFF031F00A4C927 /* Build configuration list for PBXNativeTarget "CustomViewContTransitionDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +441,7 @@
 				A6E9C4C71BFF031F00A4C927 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
